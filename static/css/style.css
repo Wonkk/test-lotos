@@ -1843,6 +1843,8 @@ text-decoration: none;
 @media (max-width: 959px){
     header{
         padding: 10px 5px;
+        width:100%;
+        max-width: 100vw;
         gap: 15px;
         display: flex;
         flex-direction: row;
