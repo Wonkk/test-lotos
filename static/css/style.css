@@ -2202,7 +2202,7 @@ text-decoration: none;
         font-size: 15px;
         line-height: 18px;
         font-weight: 500;
-        padding-left: 0px;
+        padding-left: 30px;
     }
 
     .exo-modal a{
@@ -2227,6 +2227,9 @@ text-decoration: none;
 
     .reso-nav-button{
         box-shadow: -2px 3px 10px 0px #00000073;
+    }
+    .cnew2{
+        padding-left: 0px;
     }
 }
 
