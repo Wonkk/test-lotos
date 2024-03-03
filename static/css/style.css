@@ -24,9 +24,7 @@
 body{
     font-family: 'Montserrat-Alternates';
 }
-body{
-     padding-right: 0px!important;
-}
+
 
 header{
     display: flex;
@@ -2174,6 +2172,7 @@ text-decoration: none;
     .reso{
         width: 200%;
         filter: blur(40.5px);
+        transform: rotate(360deg);
     }
 
     .mflower2-bg{
