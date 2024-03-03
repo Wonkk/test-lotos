@@ -141,7 +141,7 @@ footer{
 
 .cnew2 a{
     text-decoration: none;
-    color: rgba(247, 220, 215, 1);
+    color: rgba(80, 49, 49, 1);
 }
 
 .footer-ya-text{
@@ -1846,6 +1846,7 @@ text-decoration: none;
         gap: 15px;
         display: flex;
         flex-direction: row;
+        border-radius: 0px 0px 10px 10px;
     }
     .mdcolumn{
         gap: 15px;
@@ -2181,7 +2182,6 @@ text-decoration: none;
         position: absolute;
         bottom: -125px;
         background-position: bottom;
-        background-size: 20px;
         padding-left: 27px;
     }
 
@@ -2200,6 +2200,7 @@ text-decoration: none;
         font-size: 15px;
         line-height: 18px;
         font-weight: 500;
+        padding-left: 0px;
     }
 
     .exo-modal a{
@@ -2220,6 +2221,10 @@ text-decoration: none;
 
     iframe{
         height: 60vw;
+    }
+
+    .reso-nav-button{
+        box-shadow: -2px 3px 10px 0px #00000073;
     }
 }
 
