@@ -1,0 +1,426 @@
+.h-container4{
+    height: auto;
+    padding-bottom: 100px;
+}
+
+
+
+.title-exo{
+    color: rgba(80, 49, 49, 1);
+    font-family: 'lake-line';
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.title-help{
+    font-weight: 600;
+}
+
+.padding-head{
+    padding-top: 220px;
+}
+
+.block-text-exo{
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 0em;
+    text-align: left;
+    text-indent: 20px;
+    color: #503131;
+    text-shadow: -1px 1px 6px rgba(80, 49, 49, 0.6);
+}
+
+.foliage2{
+    z-index: -2;
+    transform: scaleY(-1);
+    top: -10%;
+}
+
+.exo-img2{
+    position: absolute;
+    z-index: 8;
+    content: "";
+    background-image: url(../../static/accets/ekzo-Photoroom.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.exo2{
+    position: relative;
+    background-color: rgba(90, 183, 253, 0.7);
+    border-radius: 50%;
+    filter: blur(100px);
+    width: 100%;
+    height: 100%;
+
+}
+
+.exo-container:hover .exo2{
+    background-color: rgba(90, 183, 253, 1);
+}
+
+.exo-icon1{
+    background-image: url(../../static/accets/exo-icon1.svg);
+}
+
+.exo-icon2{
+    background-image: url(../../static/accets/exo-icon2.svg);
+}
+
+.exo-icon3{
+    background-image: url(../../static/accets/exo-icon3.svg);
+}
+
+.exo-icon4{
+    background-image: url(../../static/accets/exo-icon4.svg);
+}
+
+
+
+.bg-Rectangle2{
+    background-size: cover;
+    background-position: center;
+    background-image: url(../../static/accets/bg2.svg);
+    position: relative;
+}
+
+.bg-Rectangle2::after{
+    content: '';
+    position: absolute;
+    top: 0px;
+    height: 15px;
+    width: 100%;
+    background-image: linear-gradient(to bottom, #F0D9CC 0%, rgba(240, 217, 204, 0.1) 100%);
+}
+
+.bg-Rectangle2::before{
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    height: 15px;
+    width: 100%;
+    background-image: linear-gradient(to top, #F0D9CC 0%, rgba(240, 217, 204, 0.1) 100%);
+}
+
+.img-container{
+    overflow: hidden;
+}
+
+.img-block{
+    width: 22%;
+    cursor: pointer;
+}
+
+.img-back, .img-next{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.img-next img{
+    width: 13px;
+}
+
+.img-back img{
+    width: 13px;
+    transform: rotate(180deg);
+}
+
+.img-modal{
+    width: 100%;
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-img-container{
+    width: 35%;
+}
+
+
+.flower4-bg2{
+    top: 10%;
+    width: 22%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    background-image: url(../../static/accets/flower4.svg);
+    transform: scaleX(-1);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    pointer-events: none;
+}
+
+
+.icon-exo-line1{
+    padding-left: 55px;
+    background-image: url(../../static/accets/i1.svg);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: left;
+    pointer-events: none;
+}
+
+.icon-exo-line2{
+    padding-left: 55px;
+    background-image: url(../../static/accets/i2.svg);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: left;
+    pointer-events: none;
+}
+
+.icon-exo-line3{
+    padding-left: 55px;
+    background-image: url(../../static/accets/i3.svg);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: left;
+    pointer-events: none;
+}
+
+.bg-Rectangle3{
+    background-size: cover;
+    background-position: center;
+    background-image: url(../../static/accets/Rectangle3.svg);
+}
+
+.list-bloken {
+    font-size: 27px;
+}
+
+.bg-Rectangle3::after{
+    content: '';
+    position: absolute;
+    bottom:  0px;
+    height: 20px;
+    width: 100%;
+    background-image: linear-gradient(to top, #F0D9CC 0%, rgba(240, 217, 204, 0.1) 100%);
+}
+
+
+@media (max-width:1620px){
+
+
+    .exo-button-nc{
+        font-size: 18px;
+    }
+    .fz22{
+        font-size: 20px;
+    }
+    .block-text-exo{
+        font-size: 26px;
+    }
+    .title-exo{
+        font-size: 32px;
+    }
+}
+
+
+@media (max-width:1240px){
+
+
+    .exo-button-nc{
+        font-size: 16px;
+    }
+    .fz22{
+        font-size: 18px;
+    }
+    .block-text-exo{
+        font-size: 25px;
+    }
+    .title-exo{
+        font-size: 30px;
+    }
+}
+
+@media (max-width:1090px){
+
+
+    .exo-button-nc{
+        font-size: 14px;
+    }
+    .fz22{
+        font-size: 16px;
+    }
+    .block-text-exo{
+        font-size: 22px;
+    }
+    .title-exo{
+        font-size: 25px;
+    }
+    .h-auto-1050{
+    height: 720px;
+    }
+}
+
+@media (min-width: 960px){
+    .nav-page-container{
+        position: relative;
+    }
+
+    .profile{
+        display: flex;
+        position: absolute;
+        left: 100%;
+        height: 36px;
+        justify-content: left;
+        align-items: center;
+        padding-left: 40px;
+        background-image: url(../../static/accets/profile.svg);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-position-x: 10px; 
+        border-radius: 9px;
+        background-color: #616CC7;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+
+    .text-profile{
+        margin-left: -200px;
+    }
+    .profile:hover .text-profile{
+        margin-left: 0px;
+        transition: margin-left 0.5s ease;
+        text-wrap: nowrap;
+        font-size: 20px;
+        padding-right: 10px;
+    }
+}
+
+
+@media (max-width: 959px){
+
+
+    .h-container4{
+        height: auto;
+    }
+    .block-text-exo{
+        font-size: 15px;
+    }
+
+    .title-exo{
+        text-align: center;
+    }
+
+    .mb-custom-block1{
+        padding: 10px 7px 10px 7px;
+        background: rgba(97, 108, 199, 1);
+        text-align: center;
+        color: rgba(247, 220, 215, 1);
+        border-radius: 10px;
+    }
+
+    .title-help{
+        padding-left: 25px;
+        position: relative;
+        text-align: left
+    }
+    .title-help::before{
+        content: ''; 
+        position: absolute;
+        left: 0; 
+        top: 50%; 
+        transform: translateY(-50%);
+        width: 4px; 
+        height: 4px;
+        background-color: rgba(80, 49, 49, 1); 
+        border-radius: 50%; 
+    }
+    .text-help{
+        display: none;
+    }
+
+    .mg50{
+        gap: 50px;
+    }
+    
+    .img-block{
+        width: 100%;
+        display: none;
+    }
+
+    .mp-20{
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 30px;
+    }
+
+    
+    .anime_element{
+        display: flex;
+        width: 100%;
+        position: absolute;
+    }
+
+    .button-img-nav{
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    .but-nav{
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: rgba(121, 121, 121, 1);
+
+    }
+    .but-nav-active{
+        background: white;
+    }
+
+    .modal-img-container{
+        width: 100%;
+    }
+
+    .flower4-bg2{
+        width: 55%;
+        background-position: bottom;
+        max-width: 275px;
+    }
+
+    .flower-img{
+        max-width: 400px;
+        margin-left: 17%;
+    }
+
+    .gg{
+        gap: 50px;
+    }
+
+    .icon-exo-line1, .icon-exo-line2, .icon-exo-line3{
+        padding-left: 0px;
+        background-position: top;
+        padding-top: 55px;
+        text-align: center;
+    }
+
+    .padding-head{
+        padding-top: 22%;
+    }
+
+    .mp75 {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+    
+    
+
+}
+
+
