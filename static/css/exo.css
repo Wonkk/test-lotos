@@ -45,7 +45,7 @@
     position: absolute;
     z-index: 8;
     content: "";
-    background-image: url(../../static/accets/ekzo-Photoroom.svg);
+    background-image: url(/static/accets/ekzo-Photoroom.svg);
     background-repeat: no-repeat;
     background-position: center;
     align-items: center;
@@ -69,19 +69,19 @@
 }
 
 .exo-icon1{
-    background-image: url(../../static/accets/exo-icon1.svg);
+    background-image: url(/static/accets/exo-icon1.svg);
 }
 
 .exo-icon2{
-    background-image: url(../../static/accets/exo-icon2.svg);
+    background-image: url(/static/accets/exo-icon2.svg);
 }
 
 .exo-icon3{
-    background-image: url(../../static/accets/exo-icon3.svg);
+    background-image: url(/static/accets/exo-icon3.svg);
 }
 
 .exo-icon4{
-    background-image: url(../../static/accets/exo-icon4.svg);
+    background-image: url(/static/accets/exo-icon4.svg);
 }
 
 
@@ -89,7 +89,7 @@
 .bg-Rectangle2{
     background-size: cover;
     background-position: center;
-    background-image: url(../../static/accets/bg2.svg);
+    background-image: url(/static/accets/bg2.svg);
     position: relative;
 }
 
@@ -155,7 +155,7 @@
     height: 100%;
     position: absolute;
     left: 0px;
-    background-image: url(../../static/accets/flower4.svg);
+    background-image: url(/static/accets/flower4.svg);
     transform: scaleX(-1);
     background-repeat: no-repeat;
     background-size: contain;
@@ -166,7 +166,7 @@
 
 .icon-exo-line1{
     padding-left: 55px;
-    background-image: url(../../static/accets/i1.svg);
+    background-image: url(/static/accets/i1.svg);
     background-repeat: no-repeat;
     background-size: 40px;
     background-position: left;
@@ -175,7 +175,7 @@
 
 .icon-exo-line2{
     padding-left: 55px;
-    background-image: url(../../static/accets/i2.svg);
+    background-image: url(/static/accets/i2.svg);
     background-repeat: no-repeat;
     background-size: 40px;
     background-position: left;
@@ -184,7 +184,7 @@
 
 .icon-exo-line3{
     padding-left: 55px;
-    background-image: url(../../static/accets/i3.svg);
+    background-image: url(/static/accets/i3.svg);
     background-repeat: no-repeat;
     background-size: 40px;
     background-position: left;
@@ -194,7 +194,7 @@
 .bg-Rectangle3{
     background-size: cover;
     background-position: center;
-    background-image: url(../../static/accets/Rectangle3.svg);
+    background-image: url(/static/accets/Rectangle3.svg);
 }
 
 .list-bloken {
@@ -279,7 +279,7 @@
         justify-content: left;
         align-items: center;
         padding-left: 40px;
-        background-image: url(../../static/accets/profile.svg);
+        background-image: url(/static/accets/profile.svg);
         background-repeat: no-repeat;
         background-position: left;
         background-position-x: 10px; 
@@ -353,6 +353,13 @@
         width: 100%;
         display: none;
     }
+
+    .exo2{
+        background-color: rgba(49, 99, 214, 0.4);
+
+    }
+
+
 
     .mp-20{
         padding-left: 0px;
