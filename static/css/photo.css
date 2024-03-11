@@ -186,6 +186,7 @@
     height: 100%;
     width: 110vw;
 }
+    
 
 .iframe-container-short, .iframe-container-short iframe{
     height: 100%;
@@ -216,6 +217,10 @@
 
 .foliage img{
     width: 100%;
+}
+
+.img-block{
+    width: min-content;
 }
 
 }
