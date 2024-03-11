@@ -49,6 +49,7 @@
 
 .slider-photo img{
     height: 100%;
+    width: fit-content;
 }
 
 
