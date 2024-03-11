@@ -169,8 +169,19 @@
     height: 100%;
 }
 
-.slider-photo{
-    height: 66vw;
+.slider-photo, .slider-video{
+    height: 70vw;
+}
+
+.iframe-container, .iframe-container iframe{
+    height: 100%;
+    width: 110vw;
+}
+
+.iframe-container-short, .iframe-container-short iframe{
+    height: 100%;
+    width: calc(39.375vw - 30.125px);
+    max-width: 253.125px;
 }
 
 
