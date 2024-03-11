@@ -75,5 +75,8 @@ if ($(window).width() > 900){
         $('.scroll-bar').css({'left': scroll+'%'})
 })
 
-
+    $('.img-block').each(function() {
+        var imgWidth = $(this).find('img').width(); // Получаем ширину изображения в текущем блоке
+        $(this).width(imgWidth); // Применяем ширину к текущему блоку
+    });
 })
