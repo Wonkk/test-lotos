@@ -11,7 +11,7 @@
     max-height: 440px;
     height: 22vw;
     overflow-x: scroll;
-    gap: 2vw;
+    gap: 10px;
     border-radius: 20px;
 }
 .slider-video{
