@@ -145,6 +145,9 @@
     max-width: 400px;
 }
 
+.slider-photo, .slider-video{
+    gap: 5vw;
+}
     
 .padding-head{
     padding-top: 150px;
